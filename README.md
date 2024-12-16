@@ -1,19 +1,27 @@
-# Gastrointestinal disease classification
-This project aims to classify 4 types of Gastrointestinal Diseases (angiodysplasia, esophagitis, polyps, ulcerative-colitis) using endoscopy images. Image Contrast Enhancement technique (CLAHE) is being applied on endoscopy images to improve visibility and diagnostic accuracy.
+# Gastrointestinal Disease Classification Using Endoscopy Images
+This project aims to classify four types of gastrointestinal diseases (angiodysplasia, esophagitis, polyps, ulcerative colitis) using endoscopy images. The Image Contrast Enhancement technique (CLAHE) is applied to improve visibility and diagnostic accuracy.
 
-### The website
-![Alt text](images/Website.png)
+## Requirements
+This project is built using Python 3.9 and TensorFlow 2.9.
+
+## Visuals
+
+### Website Interface
+![Website](images/Website.png)
+*This is the interface for the project’s website.*
 
 ### Original Image
-![Alt text](images/OriImage.png)
+![Original Image](images/OriImage.png)
+*This shows an example of an original endoscopy image before enhancement.*
 
 ### Enhanced Image
-![Alt text](images/EnhancedImage.png)
+![Enhanced Image](images/EnhancedImage.png)
+*This shows the same endoscopy image after applying the CLAHE enhancement technique.*
 
-### Prediction
-![Alt text](images/Prediction.png)
+### Prediction Result
+![Prediction Result](images/Prediction.png)
+*This image represents the prediction result after classifying the enhanced image.*
 
-
-### Credits 
-Dataset 1: https://datasets.simula.no/kvasir/
-Dataset 2: https://www.kaggle.com/datasets/capsuleyolo/kyucapsule 
+## Credits
+- **Dataset 1**: [Kvasir Dataset](https://datasets.simula.no/kvasir/)
+- **Dataset 2**: [SEE-AI Project Dataset (Kaggle)](https://www.kaggle.com/datasets/capsuleyolo/kyucapsule)
